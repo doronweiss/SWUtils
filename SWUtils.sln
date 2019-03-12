@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "funcprog", "Tests\funcprog\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSExtensions", "CSExtensions\CSExtensions.csproj", "{F6ABB08E-F6C7-4131-BAAF-B7E0DBF70BCD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFUtils", "WPFUtils\WPFUtils.csproj", "{C4F9348C-3078-44CB-B365-6BDDDE434073}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{F6ABB08E-F6C7-4131-BAAF-B7E0DBF70BCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6ABB08E-F6C7-4131-BAAF-B7E0DBF70BCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6ABB08E-F6C7-4131-BAAF-B7E0DBF70BCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4F9348C-3078-44CB-B365-6BDDDE434073}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4F9348C-3078-44CB-B365-6BDDDE434073}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4F9348C-3078-44CB-B365-6BDDDE434073}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4F9348C-3078-44CB-B365-6BDDDE434073}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
