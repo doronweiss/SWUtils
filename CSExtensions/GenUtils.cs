@@ -26,6 +26,43 @@ namespace CSExtensions {
         yield return item;
       }
     }
+
+    public static IEnumerable<int> Get(int hlim) {
+      int idx = 0;
+      while (idx< hlim)
+        yield return idx++;
+    }
+
+    public static IEnumerable<int> Get(int start, int count) {
+      int idx = start;
+      while (idx < start+count)
+        yield return idx++;
+    }
+
+    public static IEnumerable<double> Get(double hlim) {
+      double idx = 0;
+      while (idx < hlim) {
+        yield return idx;
+        idx += 1.0;
+      }
+    }
+
+    public static IEnumerable<double> Get(double start, double hlim) {
+      double idx = start;
+      while (idx < hlim) {
+        yield return idx;
+        idx += 1.0;
+      }
+    }
+
+    public static IEnumerable<double> Get(double start, double hlim, double step) {
+      double idx = start;
+      while (idx < hlim) {
+        yield return idx;
+        idx += step;
+      }
+    }
+
   }
 
 }

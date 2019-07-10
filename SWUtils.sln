@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.271
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{32F8C624-287A-4E58-972D-CD0C8B478257}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSExtensions", "CSExtensions\CSExtensions.csproj", "{F6ABB08E-F6C7-4131-BAAF-B7E0DBF70BCD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFUtils", "WPFUtils\WPFUtils.csproj", "{C4F9348C-3078-44CB-B365-6BDDDE434073}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RangeTest", "Tests\RangeTest\RangeTest.csproj", "{B37366BA-2E43-4A6C-9463-B8C3901BC2F8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,12 +31,17 @@ Global
 		{C4F9348C-3078-44CB-B365-6BDDDE434073}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4F9348C-3078-44CB-B365-6BDDDE434073}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4F9348C-3078-44CB-B365-6BDDDE434073}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B37366BA-2E43-4A6C-9463-B8C3901BC2F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B37366BA-2E43-4A6C-9463-B8C3901BC2F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B37366BA-2E43-4A6C-9463-B8C3901BC2F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B37366BA-2E43-4A6C-9463-B8C3901BC2F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D83429BA-32BE-46AC-847F-1AE850B08B1D} = {32F8C624-287A-4E58-972D-CD0C8B478257}
+		{B37366BA-2E43-4A6C-9463-B8C3901BC2F8} = {32F8C624-287A-4E58-972D-CD0C8B478257}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BEB7B554-811A-4A22-BFC4-01DDB4A03E8E}
